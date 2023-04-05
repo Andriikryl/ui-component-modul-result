@@ -223,3 +223,12 @@
 .summary-item[data-item-type="accent-4"]{
   --item-color: var(--clr-accent-4);
 }
+
+.summary-score{
+  font-weight: var(--fw-black);
+  color: var(hsl(var(--clr-neutral-hsl-700), .1));
+}
+
+.summary-score span {
+  color: var(--clr-neutral-700);
+}
